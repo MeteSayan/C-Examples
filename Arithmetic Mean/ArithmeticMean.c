@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main(){
 	
@@ -11,5 +12,5 @@ int main(){
 	arith = (a+b+c+d+e)/5.0;
 	printf("The arithmetic mean of the numbers you entered: %.2f",arith);	
 
-	
+	getch();
 }
